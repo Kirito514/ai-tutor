@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Ta'lim Yordamchisi</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>AI Ta'lim Yordamchisi</h1>
+            <p>O'zbek tilidagi sun'iy intellekt o'qituvchi</p>
+        </header>
+        
+        <div class="chat-container">
+            <div id="messages" class="messages">
+                <div class="message bot">
+                    Salom! Matematika, fizika, kimyo, tarix va boshqa fanlar bo'yicha savollaringizni bering.
+                </div>
+            </div>
+            
+            <div class="input-area">
+                <input 
+                    type="text" 
+                    id="messageInput" 
+                    placeholder="Savolingizni yozing..."
+                    autocomplete="off"
+                >
+                <button id="sendBtn" onclick="sendMessage()">Yuborish</button>
+            </div>
+        </div>
+        
+
+    </div>
+    
+    <script src="/static/js/chat.js"></script>
+</body>
+</html>
